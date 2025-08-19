@@ -1,6 +1,7 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
+
 ul {
   width: 100vw;
   height: 300px;
@@ -8,6 +9,7 @@ ul {
   display: flex;
   gap: 4vw;
 }
+
 li {
   list-style-type: none;
   background-color: #eeeeee;
@@ -54,11 +56,11 @@ ul::scroll-button(*):disabled {
 }
 
 ul::scroll-button(left) {
-  content: "◄";
+  content: '◄';
 }
 
 ul::scroll-button(right) {
-  content: "►";
+  content: '►';
 }
 
 ul {
@@ -94,7 +96,7 @@ ul::scroll-marker-group {
   gap: 20px;
 }
 li::scroll-marker {
-  content: "";
+  content: '';
   width: 16px;
   height: 16px;
   background-color: transparent;
@@ -104,4 +106,3 @@ li::scroll-marker {
 li::scroll-marker:target-current {
   background-color: black;
 }
-  */
